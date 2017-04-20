@@ -1,0 +1,289 @@
+TABLE#tlayout {
+	BACKGROUND: white; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-COLLAPSE: separate; BORDER-BOTTOM-STYLE: none
+}
+BODY {
+	BACKGROUND: white; PADDING-BOTTOM: 8px; MARGIN: 0px; FONT-FAMILY: Georgia, serif
+}
+#layout-menu {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 8px; FONT-SIZE: 1em; BACKGROUND: #f6f6f6; VERTICAL-ALIGN: top; BORDER-LEFT: #dddddd 1px solid; WIDTH: auto; PADDING-TOP: 0.5em; BORDER-BOTTOM: #dddddd 1px solid; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+#layout-menu TD {
+	BACKGROUND: #f4f4f4; VERTICAL-ALIGN: top
+}
+#layout-content {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; BACKGROUND: white; VERTICAL-ALIGN: top; BORDER-TOP-STYLE: none; PADDING-TOP: 0em; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
+#layout-menu A {
+	MARGIN-LEFT: 0.5em; LINE-HEIGHT: 1.5em
+}
+TT {
+	BACKGROUND: #ffffdd
+}
+PRE {
+	FONT-SIZE: 90%; FONT-FAMILY: monaco, monospace
+}
+TT {
+	FONT-SIZE: 90%; FONT-FAMILY: monaco, monospace
+}
+A {
+	COLOR: #224b8d; TEXT-DECORATION: none
+}
+A > TT {
+	COLOR: #224b8d; TEXT-DECORATION: none
+}
+A:hover {
+	BORDER-BOTTOM: gray 1px dotted
+}
+#layout-menu A.current:link {
+	COLOR: #022b6d; BORDER-BOTTOM: gray 1px solid
+}
+#layout-menu A.current:visited {
+	COLOR: #022b6d; BORDER-BOTTOM: gray 1px solid
+}
+#layout-menu A:link {
+	COLOR: #527bbd; TEXT-DECORATION: none
+}
+#layout-menu A:visited {
+	COLOR: #527bbd; TEXT-DECORATION: none
+}
+#layout-menu A:hover {
+	COLOR: #527bbd; TEXT-DECORATION: none
+}
+#layout-menu A:hover {
+	TEXT-DECORATION: none
+}
+DIV.menu-category {
+	MARGIN-TOP: 0.8em; FONT-WEIGHT: bold; PADDING-BOTTOM: 0.1em; PADDING-TOP: 0.2em; BORDER-BOTTOM: gray 1px solid
+}
+DIV.menu-item {
+	PADDING-LEFT: 16px; TEXT-INDENT: -16px
+}
+DIV#toptitle {
+	MARGIN-BOTTOM: 1.5em; PADDING-BOTTOM: 0.2em; BORDER-BOTTOM: gray 3px double
+}
+DIV#toptitle + H2 {
+	MARGIN-TOP: -0.7em
+}
+DIV#toptitle + H3 {
+	MARGIN-TOP: -0.7em
+}
+DIV#subtitle {
+	MARGIN-TOP: 0em; MARGIN-BOTTOM: 0em; PADDING-BOTTOM: 0.1em; PADDING-TOP: 0em
+}
+EM {
+	FONT-STYLE: italic
+}
+STRONG {
+	FONT-WEIGHT: bold
+}
+H1 {
+	MARGIN-TOP: 0.7em; MARGIN-BOTTOM: 0.3em; PADDING-BOTTOM: 0.2em; COLOR: #527bbd; LINE-HEIGHT: 1; PADDING-TOP: 0.5em; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+H2 {
+	MARGIN-TOP: 0.7em; MARGIN-BOTTOM: 0.3em; PADDING-BOTTOM: 0.2em; COLOR: #527bbd; LINE-HEIGHT: 1; PADDING-TOP: 0.5em; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+H3 {
+	MARGIN-TOP: 0.7em; MARGIN-BOTTOM: 0.3em; PADDING-BOTTOM: 0.2em; COLOR: #527bbd; LINE-HEIGHT: 1; PADDING-TOP: 0.5em; BORDER-BOTTOM: #aaaaaa 1px solid
+}
+H1 {
+	FONT-SIZE: 165%
+}
+H2 {
+	FONT-SIZE: 125%; PADDING-TOP: 0.8em
+}
+H2 + H3 {
+	PADDING-TOP: 0.2em
+}
+H3 {
+	FONT-SIZE: 110%; BORDER-BOTTOM-STYLE: none
+}
+P {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0em; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0.8em; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.3; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV#footer {
+	BORDER-TOP: #c0c0c0 1px solid; MARGIN-TOP: 4em; FONT-SIZE: small; COLOR: #c0c0c0; PADDING-TOP: 0.1em
+}
+DIV#footer A {
+	COLOR: #80a0b0
+}
+DIV#footer-text {
+	FLOAT: left; PADDING-BOTTOM: 8px
+}
+UL {
+	MARGIN-TOP: 0.2em; MARGIN-BOTTOM: 0.8em; PADDING-TOP: 0px
+}
+OL {
+	MARGIN-TOP: 0.2em; MARGIN-BOTTOM: 0.8em; PADDING-TOP: 0px
+}
+DL {
+	MARGIN-TOP: 0.2em; MARGIN-BOTTOM: 0.8em; PADDING-TOP: 0px
+}
+DT {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0px
+}
+DL {
+	MARGIN-LEFT: 20px
+}
+DD {
+	COLOR: #222222
+}
+DD > *:first-child {
+	MARGIN-TOP: 0px
+}
+UL {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: square
+}
+P + UL {
+	MARGIN-TOP: -0.5em
+}
+P + OL {
+	MARGIN-TOP: -0.5em
+}
+LI UL {
+	MARGIN-TOP: -0.3em
+}
+LI OL {
+	MARGIN-TOP: -0.3em
+}
+OL {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: decimal
+}
+LI P {
+	MARGIN-BOTTOM: 0.3em
+}
+DD P {
+	MARGIN-BOTTOM: 0.3em
+}
+OL OL {
+	LIST-STYLE-TYPE: lower-alpha
+}
+OL OL OL {
+	LIST-STYLE-TYPE: lower-roman
+}
+P + DIV.codeblock {
+	MARGIN-TOP: -0.6em
+}
+DIV.codeblock {
+	MARGIN-TOP: 1.2em; MARGIN-BOTTOM: 1.3em; MARGIN-RIGHT: 0%
+}
+DIV.infoblock {
+	MARGIN-TOP: 1.2em; MARGIN-BOTTOM: 1.3em; MARGIN-RIGHT: 0%
+}
+DIV.blocktitle {
+	MARGIN-TOP: 1.2em; FONT-WEIGHT: bold; MARGIN-BOTTOM: 0.1em; COLOR: #cd7b62
+}
+DIV.blockcontent {
+	BORDER-RIGHT: silver 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: silver 1px solid; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.3em; BORDER-LEFT: silver 1px solid; PADDING-TOP: 0.3em; BORDER-BOTTOM: silver 1px solid
+}
+DIV.infoblock > DIV.blockcontent {
+	BACKGROUND: #ffffee
+}
+DIV.blockcontent P + UL {
+	MARGIN-TOP: 0.4em
+}
+DIV.blockcontent P + OL {
+	MARGIN-TOP: 0.4em
+}
+DIV.infoblock P {
+	MARGIN-BOTTOM: 0em
+}
+DIV.infoblock LI P {
+	MARGIN-BOTTOM: 0.5em
+}
+DIV.infoblock DD P {
+	MARGIN-BOTTOM: 0.5em
+}
+DIV.infoblock P + P {
+	MARGIN-TOP: 0.8em
+}
+DIV.codeblock > DIV.blockcontent {
+	BACKGROUND: #f6f6f6
+}
+SPAN.pycommand {
+	COLOR: #000070
+}
+SPAN.statement {
+	COLOR: #008800
+}
+SPAN.builtin {
+	COLOR: #000088
+}
+SPAN.special {
+	COLOR: #990000
+}
+SPAN.operator {
+	COLOR: #880000
+}
+SPAN.error {
+	COLOR: #aa0000
+}
+SPAN.comment {
+	COLOR: #606060
+}
+SPAN.comment > * {
+	COLOR: #606060
+}
+SPAN.string {
+	COLOR: #606060
+}
+SPAN.string > * {
+	COLOR: #606060
+}
+
+@media Print    
+{
+#layout-menu {
+	DISPLAY: none
+}
+    }
+#fwtitle {
+	MARGIN: 2px
+}
+#fwtitle #toptitle {
+	PADDING-LEFT: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+#layout-content H1:first-child {
+	MARGIN-TOP: -0.7em
+}
+#layout-content H2:first-child {
+	MARGIN-TOP: -0.7em
+}
+#layout-content H3:first-child {
+	MARGIN-TOP: -0.7em
+}
+DIV#toptitle H1 {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0em; PADDING-BOTTOM: 0.1em; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+#layout-content DIV#toptitle H1 {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0em; PADDING-BOTTOM: 0.1em; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+IMG.eq {
+	PADDING-RIGHT: 0.1em; PADDING-LEFT: 0.1em; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IMG.eqwl {
+	PADDING-LEFT: 2em; PADDING-BOTTOM: 0.2em; MARGIN: 0px; PADDING-TOP: 0.6em
+}
+TABLE {
+	BORDER-RIGHT: black 2px solid; BORDER-TOP: black 2px solid; BORDER-LEFT: black 2px solid; BORDER-BOTTOM: black 2px solid; BORDER-COLLAPSE: collapse
+}
+TD {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: gray 1px solid; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 2px; BORDER-LEFT: gray 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: gray 1px solid; TEXT-ALIGN: center
+}
+TABLE + TABLE {
+	MARGIN-TOP: 1em
+}
+TR.heading {
+	FONT-WEIGHT: bold; BORDER-BOTTOM: black 2px solid
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+TABLE.imgtable {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
+TABLE.imgtable TD {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
