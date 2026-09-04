@@ -124,6 +124,21 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 2.5rem 1.25rem 3rem; }
 .pubs .note { display: inline-block; margin-left: .3rem; padding: 0 .45rem; font-size: .78rem; border-radius: 3px; background: #fff4d6; color: #7a5a00; }
 .pubs .me { font-weight: 700; }
 
+/* People */
+.people { list-style: none; padding: 0; margin: 0 0 1rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1.2rem 2rem; }
+.person { display: flex; gap: 1.1rem; align-items: flex-start; margin: 0; }
+.person img, .person .avatar { width: 96px; height: 96px; flex: 0 0 96px; border-radius: 50%; object-fit: cover; border: 3px solid var(--carolina-tint); box-shadow: 0 1px 6px rgba(19,41,75,.12); }
+.person .avatar { display: flex; align-items: center; justify-content: center; background: var(--navy); color: #fff; font-family: var(--serif); font-size: 1.6rem; font-weight: 600; letter-spacing: .02em; }
+.person h3 { margin: .15rem 0 .15rem; font-size: 1.15rem; }
+.person .role { margin: 0 0 .3rem; color: var(--muted); font-size: .92rem; line-height: 1.4; }
+.person .kw { margin: 0; font-size: .92rem; color: var(--text); }
+.person .note { margin: .3rem 0 0; font-size: .85rem; color: var(--muted); }
+.alumni { list-style: none; padding: 0; margin: 0 0 1rem; }
+.alumni li { padding: .5rem 0; border-bottom: 1px solid var(--border); font-size: .97rem; }
+.alumni li:last-child { border-bottom: none; }
+.alumni .thesis { display: block; color: var(--muted); font-size: .9rem; margin-top: .1rem; }
+@media (max-width: 640px) { .people { grid-template-columns: 1fr; } }
+
 /* Teaching */
 .courses { list-style: none; padding: 0; margin: 0; }
 .courses li { padding: .55rem 0; border-bottom: 1px solid var(--border); }
