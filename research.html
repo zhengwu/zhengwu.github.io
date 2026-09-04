@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Research of Zhengwu Zhang's group: statistical AI for representation, reasoning, and decision-making — AI reasoning and agents, financial decision-making, and human brain networks." />
+    <meta name="description" content="Research of Zhengwu Zhang's group: statistical AI for representation, reasoning, and decision-making — human brain networks, AI reasoning and agents, and financial decision-making." />
     <meta name="author" content="Zhengwu Zhang" />
     <title>Research — Zhengwu Zhang</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -32,11 +32,26 @@
 <main>
     <div class="page-title"><h1>Research</h1></div>
     <p class="lead">Our group develops statistical and machine learning methods for understanding <strong>representation, reasoning, and decision-making in complex systems</strong>.</p>
-    <p>A common challenge across modern AI, financial markets, and the human brain is that decisions must be made from information that is high-dimensional, noisy, dynamic, and incomplete. We are interested not only in predicting what happens next, but also in understanding how information is represented, how uncertainty evolves, and how representations lead to reasoning and decisions.</p>
-    <p>Our research combines statistical methodology, machine learning, geometry, generative models, and sequential decision-making. We currently pursue these questions in three interconnected areas: AI reasoning and agents, financial decision-making, and human cognition and neuroscience.</p>
+    <p>A common challenge across the human brain, modern AI, and financial markets is that decisions must be made from information that is high-dimensional, noisy, dynamic, and incomplete. We are interested not only in predicting what happens next, but also in understanding how information is represented, how uncertainty evolves, and how representations lead to reasoning and decisions.</p>
+    <p>Our research combines statistical methodology, machine learning, geometry, generative models, and sequential decision-making. We currently pursue these questions in three interconnected areas: human cognition and neuroscience, AI reasoning and agents, and financial decision-making.</p>
 
     <section class="area">
-        <h2>1. Reasoning, Representation, and AI Agents</h2>
+        <h2>1. Human Cognition and Brain Networks</h2>
+        <p>Our longstanding research in neuroscience develops statistical and machine learning methods for understanding the organization, variability, and adaptation of the human brain. A major focus is the human <strong>connectome</strong>&mdash;the structural and functional connections linking different parts of the brain. Unlike conventional approaches that reduce the brain to a fixed collection of regions, we develop methods that preserve its continuous geometry and complex network structure.</p>
+        <p>Current directions include:</p>
+        <ul>
+            <li><strong>Continuous and geometry-based connectome analysis</strong> &mdash; developing atlas-free statistical representations of structural and functional brain connectivity.</li>
+            <li><strong>Multimodal brain modeling</strong> &mdash; integrating structural connectivity, functional connectivity, imaging, genetics, and behavioral measurements.</li>
+            <li><strong>Generative models for neuroimaging</strong> &mdash; using latent-variable and diffusion models for harmonization, reconstruction, and prediction.</li>
+            <li><strong>Brain aging and disease</strong> &mdash; identifying structural and functional changes associated with aging, cognitive decline, pain, and neurological conditions.</li>
+            <li><strong>Cognitive learning and resilience</strong> &mdash; studying how the brain adapts to challenging cognitive tasks and how personalized interventions may strengthen cognitive function.</li>
+            <li><strong>Reproducible computational neuroscience</strong> &mdash; building statistical and computational tools that enable large-scale collaborative studies of brain connectivity.</li>
+        </ul>
+        <p>This research is supported by the National Institutes of Health (e.g., MH118927, AG066970, R25DA058940), including projects on brain connectivity, aging, cognitive training, and substance-use research.</p>
+    </section>
+
+    <section class="area">
+        <h2>2. Reasoning, Representation, and AI Agents</h2>
         <p>Large language models increasingly operate not simply as predictors of text, but as reasoning and decision-making systems. We study how these models represent information internally, how reasoning trajectories develop during generation, and how reliably those trajectories translate into decisions. A central question is:</p>
         <div class="callout"><p class="question">Given the same information, when and how does an AI system commit to a particular reasoning path or decision?</p></div>
         <p>Current directions include:</p>
@@ -52,7 +67,7 @@
     </section>
 
     <section class="area">
-        <h2>2. Financial Intelligence and Decision-Making</h2>
+        <h2>3. Financial Intelligence and Decision-Making</h2>
         <p>Financial markets provide a natural environment for studying decision-making under extreme uncertainty. Prices, news, economic information, and the behavior of other market participants interact dynamically, creating a challenging setting for statistical learning and AI. Our work combines predictive modeling with decision and risk analysis.</p>
         <h3>Predictive modeling and information extraction</h3>
         <p>We develop models that integrate heterogeneous sources of financial information, including market prices and trading signals, financial and economic time series, news and unstructured text, and representations extracted by large language models. We are particularly interested in understanding when predictive signals are reliable and when uncertainty should prevent a model from acting.</p>
@@ -70,30 +85,15 @@
     </section>
 
     <section class="area">
-        <h2>3. Human Cognition and Brain Networks</h2>
-        <p>Our longstanding research in neuroscience develops statistical and machine learning methods for understanding the organization, variability, and adaptation of the human brain. A major focus is the human <strong>connectome</strong>&mdash;the structural and functional connections linking different parts of the brain. Unlike conventional approaches that reduce the brain to a fixed collection of regions, we develop methods that preserve its continuous geometry and complex network structure.</p>
-        <p>Current directions include:</p>
-        <ul>
-            <li><strong>Continuous and geometry-based connectome analysis</strong> &mdash; developing atlas-free statistical representations of structural and functional brain connectivity.</li>
-            <li><strong>Multimodal brain modeling</strong> &mdash; integrating structural connectivity, functional connectivity, imaging, genetics, and behavioral measurements.</li>
-            <li><strong>Generative models for neuroimaging</strong> &mdash; using latent-variable and diffusion models for harmonization, reconstruction, and prediction.</li>
-            <li><strong>Brain aging and disease</strong> &mdash; identifying structural and functional changes associated with aging, cognitive decline, pain, and neurological conditions.</li>
-            <li><strong>Cognitive learning and resilience</strong> &mdash; studying how the brain adapts to challenging cognitive tasks and how personalized interventions may strengthen cognitive function.</li>
-            <li><strong>Reproducible computational neuroscience</strong> &mdash; building statistical and computational tools that enable large-scale collaborative studies of brain connectivity.</li>
-        </ul>
-        <p>This research is supported by the National Institutes of Health (e.g., MH118927, AG066970, R25DA058940), including projects on brain connectivity, aging, cognitive training, and substance-use research.</p>
-    </section>
-
-    <section class="area">
         <h2>Connecting the Three Areas</h2>
-        <p>Although AI systems, financial markets, and the human brain appear very different, they lead to many of the same statistical questions:</p>
+        <p>Although the human brain, AI systems, and financial markets appear very different, they lead to many of the same statistical questions:</p>
         <ul>
             <li>How is information represented in a high-dimensional system?</li>
             <li>How does that representation evolve over time?</li>
             <li>When does uncertainty resolve into a particular prediction, reasoning path, or decision?</li>
             <li>How can decisions remain reliable when the environment changes?</li>
         </ul>
-        <p>By studying these questions across artificial, financial, and biological systems, our goal is to develop statistical and computational principles for learning and decision-making under uncertainty.</p>
+        <p>By studying these questions across biological, artificial, and financial systems, our goal is to develop statistical and computational principles for learning and decision-making under uncertainty.</p>
     </section>
 </main>
 <footer class="site-footer">
